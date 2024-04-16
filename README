@@ -1,0 +1,23 @@
+QNX SD shell script to repartition a 60+ HDD/SDD device in a live MMI3GP system.
+
+The script uses a new custom QNX 6.3.0 compiled binary offered by "MJan" to write MMI3GP (HN+) partitions and format as QNX6 filesystem.
+
+Extract the ZIP archive directly to a full-size SD card formatted as FAT32.
+
+Edit the plain-text file run.sh with a Unix friendly text editor (vi, vim, Notepad++) and change line 6 from:
+
+  ACTI_HDDPARTITION=N
+
+to
+
+  ACTI_HDDPARTITION=Y
+
+Start the MMI3GP system and wait for all functions (NAV, CAR, MEDIA, TEL) to start fully.
+
+Insert the SD card into an open SD slot.
+
+Follow the screen prompts; when the script is finished, eject the SD card and inspect the plain text log file.
+
+Reboot the system manually.
+
+When the repartition/reformat is successful, you will need to restore the SSS (text to speech) data from the software release SD card separately.
