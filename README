@@ -1,4 +1,4 @@
-QNX SD shell script to repartition a 60+ HDD/SDD device in a live MMI3GP system.
+QNX SD shell script to repartition a 60+ GB HDD/SDD device in a live MMI3GP system.
 
 The script uses a new custom QNX 6.3.0 compiled binary offered by "MJan" to write MMI3GP (HN+) partitions and format as QNX6 filesystem.
 
