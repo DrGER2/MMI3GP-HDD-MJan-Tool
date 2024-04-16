@@ -1,6 +1,6 @@
 QNX SD shell script to repartition a 60+ GB HDD/SDD device in a live MMI3GP system.
 
-The script uses a new custom QNX 6.3.0 compiled binary offered by "MJan" to write MMI3GP (HN+) partitions and format as QNX6 filesystem.
+The script uses a new custom QNX 6.3.0 compiled binary (hdd-formatter-mjan) offered by "MJan" to write MMI3GP (HN+) partitions and format as QNX6 filesystem.
 
 Extract the ZIP archive directly to a full-size SD card formatted as FAT32.
 
